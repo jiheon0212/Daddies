@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/home_24px"
+        android:id="@+id/postFragment"
+        app:showAsAction="always"
+        android:title="Home post" />
+    <item
+        android:icon="@drawable/board_24px"
+        android:id="@+id/noticeBoardFragment"
+        app:showAsAction="always"
+        android:title="Notice board" />
+    <item
+        android:icon="@drawable/chat_24px"
+        android:id="@+id/chatListFragment"
+        app:showAsAction="always"
+        android:title="User chat" />
+    <item
+        android:icon="@drawable/groups_24px"
+        android:id="@+id/groupFragment"
+        app:showAsAction="always"
+        android:title="User groups" />
+    <item
+        android:icon="@drawable/shop_24px"
+        android:id="@+id/tradeFragment"
+        app:showAsAction="always"
+        android:title="Trades" />
+
+</menu>
